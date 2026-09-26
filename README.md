@@ -1,2 +1,6 @@
-# Java_game_dump_metadata
-The following repository has metadata for cjrobe's 68000 Java game dump, normalized in a single excel, with duplicate names removed, and necessary information to find about your favorite game.
+# Reference file for cjrobe's Huge Java Mobile game dump
+The following excel file lists the following information, necessary for navigating and finding your favorite java game: **Game Name**, **Developer**, **Publisher**, **Category/Genre**, **Description**, **Approximate devices**, **Version**, **Duplicate Files Merged**, **Other Vendor-specific information**, **Category/genre lookup source**.
+
+A lot of the games appear as duplicates, when looked up in the archived files: they might have the same name truncated in different ways(Like *splinter_cell* or *SplinterCell*) or they just appear multiple times with the same name. Currently, after deduplication, 8584 unique Games were found, but even now, there might be some duplicates. More summary can be viewed in the excel file itself.
+Resolution, Publisher, developer, description, Approximate device, version, other vendor-specific information were found/looked up locally from existing .jad files, pulled from the game itself or guessed based on the categorization/folder name.
+the genre/category field was most interesting and important for me, as I was searching for a very specific game, which I found only after looking in the racing genre. The genre for 4437 games out of 8584 games was found locally, for others it was looked up online, and there are still games with no information. If you have any information, please contact me.
